@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&family=Roboto:wght@100;300;500&display=swap');
+
 /*
 Colors:
 
@@ -6,3 +8,160 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+.nav{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50%;
+}
+
+.nav > img{
+    height: 4rem;
+}
+
+.nav-list ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.hero-img{
+    background-image: url(../images/landing.jpg);
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img > h2 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.hero-img > p {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+.middle{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 63px;
+}
+}
+
+.whats-on {
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.whats-on-text > h3 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    border-bottom: 4px solid #00B172;
+    width: fit-content;
+}
+
+.icons-container{
+    width: 85vw;
+}
+
+.boxes-icons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 18%;
+}
+
+.icons{
+    width: 8rem;
+}
+
+.icon-title{
+    color: #3DC696;
+}
+
+.icon-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.icon-box > h4{
+    font-size: 1.8rem;
+}
+
+.icon-box > p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.green{
+    background-color: #00B172;
+    margin-top: 120px;
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    align-items: start;
+    gap: 20rem;
+}
+
+.green-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.green-text{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.green-text > p{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.green-img {
+    width: 20rem;
+    margin-left: 15px;
+}
+
+.green-title{
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    width: fit-content;
+    font-size: 2.5rem;
+}
+
+.subtitles{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
